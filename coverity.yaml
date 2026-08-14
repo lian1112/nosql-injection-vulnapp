@@ -1,0 +1,7 @@
+capture:
+  languages:
+    include:
+      - java
+  build:
+    clean-command: ./mvnw clean
+    build-command: ./mvnw -B -DskipTests package
