@@ -3,5 +3,5 @@ capture:
     include:
       - java
   build:
-    clean-command: ./mvnw clean
-    build-command: ./mvnw -B -DskipTests package
+    clean-command: sh ./mvnw clean
+    build-command: sh ./mvnw -B -DskipTests package
